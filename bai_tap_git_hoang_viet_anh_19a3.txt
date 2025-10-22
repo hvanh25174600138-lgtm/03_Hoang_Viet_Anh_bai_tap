@@ -1,0 +1,64 @@
+Last login: Wed Oct 22 21:41:27 on ttys000
+hoangvietanh@MacBook-Air-M4 ~
+$ cd ~/Documents
+chmod +x nop_bai_git.sh
+./nop_bai_git.sh
+
+fatal: destination path '03_Hoang_Viet_Anh_bai_tap' already exists and is not an empty directory.
+[main 790bc43] Add bai_tap_git.txt - Hoang Viet Anh
+ 1 file changed, 1 insertion(+)
+ create mode 100644 bai_tap_git.txt
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 340 bytes | 340.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/hvanh25174600138-lgtm/03_Hoang_Viet_Anh_bai_tap.git
+   176199d..790bc43  main -> main
+Switched to branch 'branch_1'
+[branch_1 197c88d] Add branch_1.txt - Hoang Viet Anh
+ 1 file changed, 1 insertion(+)
+ create mode 100644 branch_1.txt
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 360 bytes | 360.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/hvanh25174600138-lgtm/03_Hoang_Viet_Anh_bai_tap/pull/new/branch_1
+remote: 
+To https://github.com/hvanh25174600138-lgtm/03_Hoang_Viet_Anh_bai_tap.git
+ * [new branch]      branch_1 -> branch_1
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+Updating 790bc43..197c88d
+Fast-forward
+ branch_1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 branch_1.txt
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/hvanh25174600138-lgtm/03_Hoang_Viet_Anh_bai_tap.git
+   790bc43..197c88d  main -> main
+Deleted branch branch_1 (was 197c88d).
+hoangvietanh@MacBook-Air-M4 ~/Documents
+$ git status
+
+fatal: not a git repository (or any of the parent directories): .git
+hoangvietanh@MacBook-Air-M4 ~/Documents
+$ cd ~/Documents/03_Hoang_Viet_Anh_bai_tap
+
+hoangvietanh@MacBook-Air-M4 ~/Documents/03_Hoang_Viet_Anh_bai_tap
+$ bai_tap_git.txt
+zsh: command not found: bai_tap_git.txt
+hoangvietanh@MacBook-Air-M4 ~/Documents/03_Hoang_Viet_Anh_bai_tap
+$ git status
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+hoangvietanh@MacBook-Air-M4 ~/Documents/03_Hoang_Viet_Anh_bai_tap
+$ script ~/Documents/bai_tap_git.txt
